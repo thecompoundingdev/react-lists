@@ -1,15 +1,10 @@
-import {
-  StyleSheet,
-  Text,
-  View,
-  FlatList,
-  Button,
-  ActivityIndicator
-} from "react-native";
-
 import React, { Component } from "react";
+import {
+  ActivityIndicator, Button, FlatList, StyleSheet, View
+} from "react-native";
 import dataGenerator from "./DataGenerator";
 import ListElement from "./ListElement";
+
 
 export default class App extends Component {
   constructor(props) {
